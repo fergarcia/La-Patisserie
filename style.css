@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'karla';
+    src: url('fonts/Karla-Bold.ttf');
+    font-weight: normal;
+}
+
+.logo-section {
+  background-color: black;
+  padding: 5px;
+  align-content: center;
+  text-align: center;
+  height:20%;
+}
+
+#patisserie-logo {  
+    position: block;
+    top: 0;
+    max-width: 15%; 
+}
+.navigation{
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li{
+  font-size: 20px;
+  list-style-type: none;
+  display: inline;
+  font-family: 'Aref Ruqaa', serif;
+  margin: 0 20px 0px 0; 
+  color:white;
+}
+
+.section-banner{
+  background-image: url('imagenes/oreo.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  margin: auto;
+  background-size:cover;
+  padding: 1em 0em;
+  height: 250px;
+}
+
+
