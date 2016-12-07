@@ -1,8 +1,8 @@
 
 .logo-section {
   background-color: black;
-  padding: 11px;
-  height: 60px;
+  padding:2%;
+  height: 49px;
   float: left;
   max-width: 100%;
   display: flex;
@@ -11,8 +11,14 @@
   justify-content: space-around;
 }
 
+.logo-big-screen #logo{ 
+  display:none
+}
+  
+
 #patisserie-logo {  
- max-width: 18%;
+ max-width: 15%;
+ margin-left:1%;
 }
 
 .navigation{
@@ -25,19 +31,12 @@ a{
   color: white;
 }
 
-li{
-  font-size: 20px;
-  list-style-type: none;
-  display: inline;
-  font-family: 'Roboto', sans-serif;
-  margin: 0 20px 0px 0; 
-  color:white;
-}
 
 .social {
   color: white;
   word-spacing: 0.8em;
   font-size: 1.5em;
+  position: absolute;
 }
 
 .social span {
@@ -63,7 +62,6 @@ li{
 }
 
 h1{
-  
   color: white;
   text-align: center;
   font-family: 'Amatic SC', cursive;
@@ -74,8 +72,7 @@ h1{
 }
 
 h1 span {
-  color:#c8c8c8;
-
+  color:#eeeeee;
 }
 
 h2{
@@ -87,7 +84,6 @@ h2{
 }
 
 .info{
-
   margin-top: -3em;
 }
   
@@ -108,9 +104,169 @@ p{
 
 
 .productos-images img{
-
-    max-width: 100%;
-    padding: 1%;
+  max-width: 100%;
+  padding: 1%;
 
 }
 
+.pot .cheesecake-oreo{
+  max-width: 100%;
+  padding: 1%;
+}
+
+
+h3{
+  color:black;
+  font-family:'Amatic SC', cursive;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+
+li{
+  font-size: 16px;
+  list-style-type: value;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 0;
+  color:black;
+  text-align: left;
+}
+
+
+#services .fa{
+  width: 10%;
+  margin-top: 9%;
+}
+
+
+h4{
+  color:black;
+  font-family:'Amatic SC', cursive;
+  font-size: 1em;
+  text-align: center;
+}
+
+.parte1{
+ display: flex;
+ align-content: row;
+ justify-content: space-around;
+ padding: 2%;
+}
+
+.parte2{
+ display: flex;
+ align-content: row;
+ justify-content: space-around;
+ padding-bottom: 5%;
+}
+
+
+.services1 {
+  color: black; 
+  font-size: 1.5em;
+  text-align: center;
+  padding:2%;
+  max-width: 45%;
+  border:#eeeeee;
+  border-radius: 40px;
+  background: #eeeeee;
+}
+
+
+.services2 {
+  color: black; 
+  font-size: 1.5em;
+  text-align: center;
+  padding:2%;
+  max-width: 45%;
+  border:#eeeeee;
+  border-radius: 40px;
+  background: #eeeeee;
+}
+
+
+.services3 {
+  color: black; 
+  font-size: 1.5em;
+  text-align: center;
+  padding:2%;
+  max-width: 45%;
+  border-radius: 40px;
+  border:#eeeeee;
+  background: #eeeeee;
+}
+
+
+.services4 {
+  color: black; 
+  font-size: 1.5em;
+  text-align: center;
+  padding:2%;
+  max-width: 45%;
+  border-radius: 40px;
+  border:#eeeeee;
+  background: #eeeeee;
+}
+
+
+.footer{
+  background: black;
+  height: 514px;
+  text-align: center;
+  padding-top: 24%;
+}
+
+.footer .last {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer .address{
+  text-decoration: underline;
+}
+
+.footer .intersection{
+  color:darkturquoise;
+  font-size: 2em;
+  font-family:'Amatic SC', cursive;
+  text-align: center;
+}
+
+form{
+font-size: 1.5em;
+font-family:'Amatic SC', cursive;
+color: white;
+
+}
+
+
+
+@media screen and (min-width: 600px) { 
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
