@@ -22,13 +22,15 @@
 }
 
 .navigation{
-  padding: 0px;
-  display:none;
+ display: none;
 }
 
-a{
-  text-decoration: none;
-  color: white;
+ul{
+ display: none;
+}
+
+li a{
+  display: none;
 }
 
 
@@ -54,6 +56,7 @@ a{
   background-image: url('imagenes/oreo.jpg');
   background-repeat: no-repeat;
   background-size: contain;
+  background-attachment: scroll;
   opacity: 0.9;
   background-position: center center;
   text-align: center;
@@ -114,6 +117,9 @@ p{
   padding: 1%;
 }
 
+.receta{
+  display: block;
+}
 
 h3{
   color:black;
@@ -256,11 +262,87 @@ color: white;
 
 @media screen and (min-width: 1024px) {
 
-.other-titles{
-  margin-top: 5%;
+.logo-section {
+background-color: white;
+padding: 5%;
+width: 100%;
+overflow: auto;
+
+}
+
+.logo-big-screen{
+  display: inline;
+  position:relative;
+}
+
+.logo-big-screen #logo{ 
+  display: block;
+  margin-left: 20%;
+}
+  
+
+#patisserie-logo {  
+ display: none;
+}
+
+.social{
+ display: none;
+}
+
+.barra{
+  position:relative;
+  text-align: center;
+}
+
+.navigation {
+  margin:3%;
+  display:block;
+}
+
+ul{
+  display: inline;
+  list-style-type: none;
+}
+
+li a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    margin: 0 60px 0px 0; 
+    float: left;
+    margin-left: 10%;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: turquoise;
 }
 
 
+.list{
+  visibility: hidden;
+  }
+
+.section-banner{
+  display: block;
+  padding: 15%;
+  background-size: cover;
+  color: transparent;
+  opacity: 1;
+}
+
+
+.other-titles{
+  margin-top: 7%;
+}
+
+.pot{
+  max-width: 100%;
+  position: relative;
+
+ }
 
 .productos-images {
   margin: 0%;
@@ -285,17 +367,34 @@ color: white;
   width: 23%;
   float: right;
   margin-right: 3%;
-
-
-
  }
 
+.receta{
+  display: block;
+}
 
 
+h1, h2{
+  visibility: hidden;
+}
+
+.other-titles{
+  visibility: visible;
+}
+
+.footer{
+  background: black;
+  height: 300px;
+  display: flex;
+  padding-top: 5%;
+  justify-content: space-around;
+  flex: 1 100%;
+}
 
 
-
-
+.contact, form{
+   width: 50%;
+}
 
 
 
