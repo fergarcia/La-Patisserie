@@ -256,7 +256,39 @@ color: white;
 
 @media screen and (min-width: 1024px) {
 
+.other-titles{
+  margin-top: 5%;
+}
 
+
+
+.productos-images {
+  margin: 0%;
+  overflow: auto;
+ } 
+ 
+.productos-images .Mousse{
+ width: 22%;
+ float: left;
+ margin-left: 1%;
+}
+
+.productos-images .Alfajores{
+ width: 20%;
+}
+
+ .productos-images .Mousse-tres-leches{
+ width: 22%;
+ }
+
+ .productos-images .limon{
+  width: 23%;
+  float: right;
+  margin-right: 3%;
+
+
+
+ }
 
 
 
