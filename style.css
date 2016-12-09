@@ -233,17 +233,19 @@ color: white;
 background-color: white;
 padding: 5%;
 width: 100%;
-overflow: auto;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
 
 }
 
 .logo-big-screen{
-  position:relative;
+   width:70%;
 }
 
 .logo-big-screen #logo{ 
   display: block;
-  margin-left: 20%;
+ 
 }
   
 
@@ -252,11 +254,11 @@ overflow: auto;
 }
 
 .social{
- display: none;
+ color:black;
+ width: 20%;
 }
 
 .barra{
-  position:relative;
   text-align: center;
 }
 
@@ -264,6 +266,7 @@ overflow: auto;
   margin:3%;
   display:block;
 }
+
 
 ul{
   display: inline;
@@ -275,11 +278,12 @@ li a {
     text-decoration: none;
     color: black;
     font-family: 'Amatic SC', cursive;
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0 40px 0px 0; 
     float: left;
     margin-left: 10%;
 }
+
 
 a:hover{
   text-decoration: underline;
@@ -382,7 +386,7 @@ height: 180px;
   margin-right: 3%;}
 
 .receta{
-  display: block;
+  display:inline-block;
 }
 
 
@@ -396,11 +400,11 @@ h1, h2{
 
 
 .container{
-   margin: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .parte1{
@@ -430,6 +434,12 @@ h1, h2{
   padding-top: 5%;
   justify-content: space-around;
   flex: 1 100%;
+}
+
+.footer .last{
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
 }
 
 
