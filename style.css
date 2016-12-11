@@ -116,6 +116,21 @@ p{
   padding: 1%;
 }
 
+.tabla{
+  padding: 5%;
+  display: block;
+  margin: auto;
+  max-width: 35%;
+  font-family:'Amatic SC', cursive;
+  font-size:2em;
+}
+
+table{
+border: dashed #00c888 3px;
+
+}
+
+
 .receta{
   display: block;
 }
@@ -262,8 +277,6 @@ justify-content: center;
 }
 
 
-
-
 .barra{
   text-align: center;
 }
@@ -271,6 +284,12 @@ justify-content: center;
 .navigation {
   margin:3%;
   display:block;
+}
+
+.info{
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 
@@ -314,11 +333,6 @@ a:hover{
   margin-top: 7%;
 }
 
-.pot img{
-  display: block;
-  margin: auto;
-  width: 50%;
- }
 
 .productos-images {
   max-width: 100%;
@@ -391,6 +405,42 @@ height: 180px;
   float: right;
   margin-right: 3%;}
 
+
+
+.pot img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  border: dashed #00c888 2px;
+ }
+
+.contenedor{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 2%;
+}
+
+
+.ingredientes, .preparacion{
+  font-size: 1em;
+   padding: 2%;
+  
+}
+
+.ingredientes{
+  width: 20%; 
+  margin-left: 2%;
+ 
+}
+
+.preparacion{
+  width: 60%;
+  text-align: justify;
+
+}
+
+
 .receta{
   display:inline-block;
 }
@@ -426,7 +476,7 @@ h1, h2{
   color: black; 
   font-size: 1.5em;
   text-align: center;
-  padding-top:5%;
+  padding-top:2%;
   max-width: 40%;
   border-radius: 0px 6px 6px 0px;
   background-color: #eee9e5;

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href= "https://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="myScript1.js"></script>
@@ -71,16 +72,86 @@ La Pâtisserie Boutique Gourmet elabora productos con la mayor dedicación para 
             <img class="flor-negra" src="imagenes/flor-negra.jpg" alt="torta-negra" />
             <img class="cake-fresas" src="imagenes/cake-fresas.jpg" alt="cake-fresas"/>         
 </div>
-<button>
-  Ordena
-  <span>Ahora Mismo.</span>
-</button>
+<div class= "tabla">
+<table cellpadding="4" cellspacing="4" border="1">
+    <tr>
+        <td valign="top">
+            <table cellpadding="4" cellspacing="4" border="0">
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            Productos 
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                           Cheesecake
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Cheesecake','Alfajores',50)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          Alfajores
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('','Yellow Door',150)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          Pudin de Limón
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Ferrari','Ferrari S234',150000)"/>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </td>
+        <td valign="top">
+            <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
+                <thead>
+                    <tr>
+                        <td>
+                            Nombre
+                        </td>
+                        <td>
+                            Descripción
+                        </td>
+                        <td>
+                            Precio
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="orderedProductsTblBody">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right" id="cart_total">
+
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </td>
+    </tr>
+</table>
+</div>
+
 <section>
   <h2 class="other-titles"><a name="Receta del Mes">  Receta del Mes</a></h2>
   <div class= "pot">
   <img class="cheesecake-oreo" src="imagenes/cheesecake-oreo.jpg" alt="Cheesecake-oreo" />
   </div>
-  <h3> Ingredientes </h3>
+<div class= "contenedor">
+<article class= "ingredientes">
+<h3> Ingredientes </h3>
 <p> Para la base:</p>
   <ul class="receta">
     <li> 160 g de galletas oreo</li>
@@ -90,7 +161,7 @@ La Pâtisserie Boutique Gourmet elabora productos con la mayor dedicación para 
   <p> Para la crema de queso:</p>
   <ul class="receta">
     <li> 600 ml de nata 35% materia grasa</li>
-    <li> 250 g de queso de untar tipo philadelphia</li>
+    <li> 250 g de queso philadelphia</li>
     <li> 250 g de chocolate blanco </li>  
     <li> 150 g de azúcar blanco </li>  
     <li> 100 ml de leche </li>  
@@ -98,6 +169,8 @@ La Pâtisserie Boutique Gourmet elabora productos con la mayor dedicación para 
     <li> 80 g de galletas oreo (1/2 paquete)</li>  
     <li> 1 cucharadita de vainilla </li> 
   </ul>
+ </article>
+ <article class= "preparacion">
  <h3> Preparación </h3>
 <ol>
 <li> Tritura los 160 gramos de galletas oreo, hasta hacer las galletas polvo.</li>
@@ -109,6 +182,8 @@ La Pâtisserie Boutique Gourmet elabora productos con la mayor dedicación para 
 <li>Con la crema de queso aún sin cuajar, coge las oreo que quieras, en mi caso medio paquete, es decir unas 6 o 7 oreo, trocéalas, e introdúcelas en la crema. Ayúdate de un tenedor para que lleguen al fondo y no se queden solo en la superficie.</li>
 <li>Por último, mete tu tarta en la nevera y espera unas 5 o 6 horas por lo menos. Lo mejor es que la hagas de un día para otro.
 </ol>
+</article>
+</div>
 </section>
 
 <h2 class="other-titles"><a name="Servicios"> Sobre Nosotros </a></h2>
@@ -140,7 +215,6 @@ La Pâtisserie Boutique Gourmet elabora productos con la mayor dedicación para 
    </div>
   </div>
 </div>
-
 
 <footer>
  <div class="footer">
